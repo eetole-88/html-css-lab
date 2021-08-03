@@ -78,28 +78,31 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .header {
+  header {
     display: flex;
     padding-bottom: 150px;
     justify-content: space-between;
     align-items: center;
   }
 
-  ul {
-    align-items: center;
-  }
   .nav-list {
     display: flex;
-    position: relative;
-    align-items: flex-end;
+    align-items: center;
+    white-space: nowrap;
   }
 
-  .main-content {
+  .list-item {
+    margin: 15px;
+    inline-size: min-content;
+  }
+
+  main {
     display: flex;
+    flex-direction: row;
   }
 
   .text-container {
-    flex: 1;
+    flex: 2;
   }
 
   .circles-container {
